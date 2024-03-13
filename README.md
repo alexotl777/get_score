@@ -4,6 +4,7 @@
 
 Затем в функции `get_score(game_stamps, offset)` возвращает счет на момент offset в списке game_stamps.
 
+Если offset, переданного в get_score, нет в списке game_stamps, то функция возвращает счет с максимальным offset, который меньше переданного в функцию
 ## Сложность алгоритма get_score
 
 _`O(n)`_, где *n* = константа *TIMESTAMPS_COUNT + 1*
